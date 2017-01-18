@@ -5,6 +5,7 @@ This is my attempt at kaggle playground exercise "Advanced Housing Regression". 
 Select the most informative features before you pass them to the regression model that you choose. We are seeking those features that has positive association with sale price.
 
 Here is a plot that shows the relationship between columns that contain numeric values and sale price.
+![floating_columns](https://cloud.githubusercontent.com/assets/1633731/22074801/9eb9a3e4-dd77-11e6-8741-1504669a7977.png)
 
 
 # Normalize features.
