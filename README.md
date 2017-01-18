@@ -2,9 +2,10 @@
 This is my attempt at kaggle playground exercise "Advanced Housing Regression". The goal is to predict housing price, given the standard information about the house. i.e. how many bedrooms/bathrooms, square footage of living room/garage, years that it has been built.
 
 # Feature Selection
-Select the most informative features before you pass them to the regression model that you choose. In this case, those features that vary with sale price (target column) are important.
+Select the most informative features before you pass them to the regression model that you choose. We are seeking those features that has positive association with sale price.
 
-sklearn has a feature selection function SelectK that consider feature best if they have high variance.
+Here is a plot that shows the relationship between columns that contain numeric values and sale price.
+
 
 # Normalize features.
 Since we are regressing on many features and some features are much bigger number than the rest, those bigger features need to normalized while preserving the variances so that they wouldn't dominate other features. We want to give every feature equal opportunity to contribute to the model.
